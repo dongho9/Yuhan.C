@@ -1,4 +1,4 @@
 # Yuhan.C
-유한대학교 C Language
-	*학번
-	*이름
+Yuhan Univ. C Language
+	* 학번: 201927042
+	* 이름: 강동호
