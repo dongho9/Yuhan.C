@@ -4,8 +4,8 @@ int print_title_screen()
 {
 	printf("###############################\n");
 	printf("##                           ##\n");
-	printf("##         Dino Run          ##\n");
-	printf("##          V.0.1            ##\n");
+	printf("##        새 똥 피하기       ##\n");
+	printf("##           V.0.1           ##\n");
 	printf("##                           ##\n");
 	printf("##  1. Start Game            ##\n");
 	printf("##  2. How to Play           ##\n");
@@ -20,10 +20,10 @@ int print_how_to_play_screen()
 {
 	printf("###############################\n");
 	printf("##                           ##\n");
-	printf("##      To Avoid Enemy       ##\n");
+	printf("##      떨어지는 새똥을      ##\n");
 	printf("##                           ##\n");
-	printf("##  Press Space Bar To Jump  ##\n");
-	printf("##                           ##\n");
+	printf("##   좌우 방향키를 이용해    ##\n");
+	printf("##         피하시오          ##\n");
     printf("###############################\n");
 
     int menu_choice = 0;
@@ -31,11 +31,11 @@ int print_how_to_play_screen()
     scanf("%d", &menu_choice);
     if(menu_choice == 1)
     {
-        return 1;
+        return 0;
     }
     else if (menu_choice == 2) 
     {
-        return 2; 
+        return 1; 
     }
     else
     {
